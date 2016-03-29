@@ -7,7 +7,7 @@ public class Constants {
 	public static String firstNameRegex = "[^a-zA-ZąćęłńóśżźĄĆĘŁŃÓŚŻŹ]+";
 	public static String lastNameRegex = "[^a-zA-Z-ąćęłńóśżźĄĆĘŁŃÓŚŻŹ]+";
 	public static String numberRegex = "[^\\d]+";
-	public static String cityStreetRegex = "[^a-zA-Z-\\.ąćęłńóśżźĄĆĘŁŃÓŚŻŹ\\s]+";
+	public static String cityStreetRegex = "[^\\w\\.\\-ąćęłńóśżźĄĆĘŁŃÓŚŻŹ\\s]+";
 	public static String firstNameErrorText = "Imię musi być conajmniej dwuliterowe!";
 	public static String lastNameErrorText = "Nazwisko musi być conajmniej dwuliterowe!";
 	public static String mainErrorText = "Nie wszystkie pola zostały wypełnione poprawnie!";
